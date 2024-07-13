@@ -3,7 +3,7 @@ import { HousingLocation } from '../housinglocation';
 import { HousingService } from '../housing.service';
 
 @Component({
-  selector: 'app-home, app',
+  selector: 'app-home',
   templateUrl: './home.component.html',
   styleUrl: './home.component.css',
   
