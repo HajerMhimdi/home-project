@@ -11,6 +11,7 @@ import { HousingLocationComponent } from './housing-location/housing-location.co
 import { DetailsComponent } from './details/details.component';
 import { RouterModule } from '@angular/router';
 import routeConfig from './routes';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -24,7 +25,8 @@ import routeConfig from './routes';
     BrowserModule,
     AppRoutingModule,
     MatButtonModule,
-    RouterModule.forRoot(routeConfig)
+    RouterModule.forRoot(routeConfig),
+    ReactiveFormsModule
     
 
     
